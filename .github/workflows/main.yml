@@ -23,7 +23,7 @@ jobs:
         run: flutter pub get
 
       - name: Build for Web
-        run: flutter build web --base-href "/portfolio_brl_trainees/"
+        run: flutter build web --base-href "/aimed_lab_intern/"
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
